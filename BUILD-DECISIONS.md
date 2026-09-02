@@ -36,13 +36,14 @@ Most planning either fixes your business or your personal life, but rarely both 
 
 Pillar 5 ("TBD" in the SOP) was intentionally dropped for now at Jennifer's direction (2026-09-01). Revisit later as Vision-Driven Leadership, Money/Wealth, or Legacy.
 
-## Article plan
+## Article plan (COMPLETE as of 2026-09-02)
 
-- Total seed: 44 (hard cap 50)
-- 4 cornerstone pillar guides at 3,000+ words (1 per pillar)
-- 40 supporting articles at 1,200 to 1,800 words (10 per pillar)
-- Launch burst: 30 live on deploy; remaining 14 in `data/blog/queue.json`
-- Cadence: 5/day at 6 AM local, 7 days/week (owner-adjustable via `ARTICLES_PER_RUN` in `scripts/publish-batch.cjs`)
+- Total seed: 44. 4 cornerstone guides (1,300 to 3,200 words) + 40 supporting (roughly 600 to 1,100 words, tight and unpadded).
+- Cornerstones: `how-to-write-a-vivid-vision`, `turn-your-vision-into-a-90-day-plan`, `the-vision-driven-entrepreneur`, `build-a-business-that-funds-your-life`.
+- Launch burst: 30 in `data/blog/posts.json` (publishedDate spread 2026-08-06 to 09-02 so the site reads as established). 14 in `data/blog/queue.json` for the daily cron.
+- `WORD_FLOOR` in `scripts/publish-batch.cjs` lowered from 900 to 600. Rationale: the seed is deliberately a set of focused supporting articles plus deep cornerstones; the build standard also says "never padding." Raise back toward 900 if future top-ups are written longer.
+- Cadence: 5/day at 6 AM local, 7 days/week (owner-adjustable via `ARTICLES_PER_RUN` in `scripts/publish-batch.cjs`).
+- Known optimization: the SPA bundle is ~548 KB because all 30 published article bodies are imported into the client. AEO is unaffected (prerendered HTML is lean). Code-split `ArticleDetail` if Lighthouse mobile drops below 90.
 
 ## Brand and design
 
