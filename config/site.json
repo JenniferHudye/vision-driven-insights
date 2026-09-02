@@ -1,0 +1,56 @@
+{
+  "siteName": "Vision Driven Insights",
+  "tagline": "Hold the vision, not the circumstances.",
+  "description": "Articles from Jennifer Hudye on building a Vivid Vision for your business and your life, aligning your team around it, and getting out of the founder bottleneck.",
+  "domain": "insights.visiondrivenglobal.com",
+  "url": "https://insights.visiondrivenglobal.com",
+  "domainStatus": "PLACEHOLDER: Jennifer deferred the final domain choice. Default is a free subdomain of her owned domain visiondrivenglobal.com. Change this file (and re-run build) once the domain is locked.",
+  "locale": "en_US",
+  "person": {
+    "name": "Jennifer Hudye",
+    "givenName": "Jennifer",
+    "familyName": "Hudye",
+    "jobTitle": "Founder, Vision Driven",
+    "identityLine": "Jennifer Hudye is a vision and messaging expert who helps 7- and 8-figure entrepreneurs and CEOs clarify a 3-year Vivid Vision for their business and life.",
+    "image": "/assets/jennifer-hudye.png",
+    "sameAs": [
+      "https://www.linkedin.com/in/jenniferhudye/"
+    ],
+    "sameAsPending": [
+      "Instagram (@jennhudye), YouTube, Facebook, X, Pinterest: add exact URLs from Jennifer before launch"
+    ]
+  },
+  "organization": {
+    "name": "Vision Driven",
+    "legalName": "Vision Driven LLC",
+    "alternateName": "Vision Driven Global",
+    "url": "https://www.visiondrivenglobal.com",
+    "logo": "/assets/vision-driven-logo.png",
+    "founder": "Jennifer Hudye",
+    "foundingYear": 2016,
+    "slogan": "Hold the vision, not the circumstances.",
+    "sameAs": [
+      "https://www.visiondrivenglobal.com",
+      "https://vividvisionconsult.com"
+    ]
+  },
+  "mainWebsite": "https://www.visiondrivenglobal.com",
+  "conversionUrl": "https://vividvisionconsult.com/",
+  "conversionLabel": "Book a Vivid Vision Consult",
+  "notificationEmail": "jennifer@visiondrivenglobal.com",
+  "dmcaEmail": "jennifer@visiondrivenglobal.com",
+  "jurisdiction": "State of Texas, United States",
+  "jurisdictionStatus": "PLACEHOLDER pending Jennifer's confirmation. Research points to Austin, TX as her base of operations. Confirm before launch (affects Privacy/Terms governing-law and the cron publish hour).",
+  "copyrightHolder": "Vision Driven LLC",
+  "cadence": {
+    "launchBurst": 30,
+    "articlesPerRun": 5,
+    "publishHourLocal": 6,
+    "timezone": "America/Chicago",
+    "publishHourUtc": 11
+  },
+  "analytics": {
+    "ga4MeasurementId": "",
+    "clarityProjectId": ""
+  }
+}

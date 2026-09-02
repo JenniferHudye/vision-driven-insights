@@ -1,0 +1,18 @@
+node_modules
+dist
+dist-ssr
+*.local
+.vercel
+.DS_Store
+npm-debug.log*
+/tmp
+scratchpad
+
+# Source material Jennifer provided (kept locally, not deployed). The brand
+# style guide PDF is 104MB and exceeds GitHub's 100MB file limit.
+*.pdf
+"Jennifer Hyude New Sig.png"
+"Jennifer Hudye New Sig.png"
+"Vision Driven logos.png"
+"Vision Driven logos (1).png"
+Core?Message?Canvas.pdf

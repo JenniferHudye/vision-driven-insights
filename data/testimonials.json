@@ -1,0 +1,90 @@
+[
+  {
+    "id": "akram",
+    "name": "Akram",
+    "title": "CEO and Founder",
+    "company": "Nominal",
+    "location": "Phoenix, Arizona",
+    "frameworkSlug": "vivid-vision",
+    "situation": "Shortly after his first child was born, his jewelry brand was messy and not profitable, and the business felt bigger than him. He was close to giving up.",
+    "outcome": "Business 3x and profits 4x in three years. Removed the wrong roles, made the right hires, and traveled with his family during Q4 while that season hit its highest numbers ever.",
+    "quote": "What I didn't know I would get was my business tripling in three years and my profits quadrupling in that same time. Both my life and my business improved at the same time, without sacrificing one for the other.",
+    "featured": true
+  },
+  {
+    "id": "dan",
+    "name": "Dan",
+    "title": "Founder",
+    "company": "Liquor License Advisor",
+    "location": "Connecticut",
+    "frameworkSlug": "vivid-vision-method",
+    "situation": "His business was drifting while he focused on building a house and living on a boat. He was uncomfortable inside about where the business and his life were headed.",
+    "outcome": "Within three weeks the whole business model changed. He now hands his team and associates a written three-year vision so everyone is aligned, and designed the business to fund the life he wants.",
+    "quote": "From the moment I walked in the door, I never had to guess how I was going to get from here to there. Every decision is now driven by a clear business vision that also supports my personal life.",
+    "featured": true
+  },
+  {
+    "id": "stacy",
+    "name": "Stacy",
+    "title": "Co-Founder",
+    "company": "Share One",
+    "location": "Austin, Texas",
+    "frameworkSlug": "vivid-vision",
+    "situation": "She and her husband ran a high-ticket one-on-one client business and wanted something more scalable. They attended the Vision Driven retreat.",
+    "outcome": "The retreat inspired Share One. They hit every three-year benchmark they set for a company that started as a seed, and two investors approached them unprompted within a month of each other.",
+    "quote": "We set these crazy audacious goals on a company that was just a seed, and almost three years later, we hit every benchmark. We didn't know how we were going to do it, but with Vision Driven, it just worked.",
+    "featured": true
+  },
+  {
+    "id": "lisa",
+    "name": "Lisa",
+    "title": "Founder",
+    "company": "The Invisible Close",
+    "location": "",
+    "frameworkSlug": "vivid-vision",
+    "situation": "Semi-retired for six years and working with VIP clients, she wanted her content to serve thousands and make millions but had no plan for how.",
+    "outcome": "Over her three-year Vivid Vision: both kids launched, she held her target level of health for the full three years, felt secure in her relationship, traveled to every destination on her list, and launched a certified coach program with 30 in the pilot. She signed up for the next three-year cycle.",
+    "quote": "It is amazing the things that unfolded because I created this Vivid Vision with you and your team. I'm so happy and grateful and proud that I've created the greatest three years of my life.",
+    "featured": true
+  },
+  {
+    "id": "jj-virgin",
+    "name": "JJ Virgin",
+    "title": "4x New York Times best-selling author",
+    "company": "",
+    "location": "",
+    "frameworkSlug": "vivid-vision",
+    "situation": "Attended the Vivid Vision Retreat.",
+    "outcome": "Clarified and expanded her vision.",
+    "quote": "The Vivid Vision Retreat really helped me clarify and expand my vision.",
+    "featured": false,
+    "type": "endorsement"
+  },
+  {
+    "id": "dave-asprey",
+    "name": "Dave Asprey",
+    "title": "Founder of Bulletproof, father of biohacking",
+    "company": "",
+    "location": "",
+    "frameworkSlug": "vision-amplifier",
+    "situation": "Experienced the Vision Amplifier practice.",
+    "outcome": "Uses it as a practice for staying in a creative, expansive state.",
+    "quote": "The Vision Amplifier Experience is a powerful modality for entrepreneurs and leaders.",
+    "featured": false,
+    "type": "endorsement"
+  },
+  {
+    "id": "cameron-herold",
+    "name": "Cameron Herold",
+    "title": "Author of Vivid Vision, founder of COO Alliance",
+    "company": "",
+    "location": "",
+    "frameworkSlug": "vivid-vision",
+    "situation": "Has done four Vivid Visions with Jennifer's team and refers his own clients to them.",
+    "outcome": "Has referred more than 200 clients to Jennifer's team.",
+    "quote": "Whether you're starting your Vivid Vision from scratch or you've taken a crack at it on your own, I highly recommend you hire Vision Driven to help you. They have helped me do 4 different Vivid Visions, and every time, I'm impressed with their ability to make the Vivid Vision pop off the page and really stand out. I send all of my clients to them because they are the best and really know how to work with the CEO and entrepreneur.",
+    "factNote": "Cameron Herold, author of Vivid Vision, has partnered with Jennifer since 2016 and has referred more than 200 clients to her team.",
+    "featured": false,
+    "type": "endorsement"
+  }
+]

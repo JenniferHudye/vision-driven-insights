@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-bg text-text font-body antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading font-semibold tracking-tight text-text;
+    text-wrap: balance;
+  }
+
+  a {
+    @apply transition-colors;
+  }
+
+  ::selection {
+    background: rgba(208, 170, 68, 0.3);
+  }
+}
+
+@layer components {
+  .container-tight {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+
+  .prose-article {
+    @apply text-[1.075rem] leading-8 text-text/90;
+  }
+  .prose-article h2 {
+    @apply mt-12 mb-4 text-2xl sm:text-3xl text-text;
+  }
+  .prose-article h3 {
+    @apply mt-9 mb-3 text-xl text-text;
+  }
+  .prose-article p {
+    @apply my-5;
+  }
+  .prose-article ul {
+    @apply my-5 list-disc space-y-2 pl-6 marker:text-primary;
+  }
+  .prose-article ol {
+    @apply my-5 list-decimal space-y-2 pl-6 marker:text-primary;
+  }
+  .prose-article a {
+    @apply text-accent underline decoration-primary/40 underline-offset-4 hover:decoration-primary;
+  }
+  .prose-article blockquote {
+    @apply my-8 border-l-2 border-primary/60 pl-5 text-xl italic text-text;
+  }
+  .prose-article strong {
+    @apply font-semibold text-text;
+  }
+  .prose-article figure {
+    @apply my-8;
+  }
+  .prose-article figcaption {
+    @apply mt-2 text-sm text-muted;
+  }
+
+  .btn-cta {
+    @apply inline-flex items-center justify-center rounded-md bg-cta px-6 py-3 font-heading text-sm font-semibold uppercase tracking-wide text-brand-black transition-transform hover:-translate-y-0.5 hover:bg-accent focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-bg;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center rounded-md border border-border px-6 py-3 font-heading text-sm font-semibold uppercase tracking-wide text-text transition-colors hover:border-primary hover:text-primary;
+  }
+  .eyebrow {
+    @apply font-heading text-xs font-semibold uppercase tracking-[0.2em] text-primary;
+  }
+  .card {
+    @apply rounded-lg border border-border bg-surface p-6 transition-colors hover:border-primary/50;
+  }
+}

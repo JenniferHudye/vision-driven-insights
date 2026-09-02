@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "vivid-vision",
+    "name": "Vivid Vision",
+    "shortName": "Vivid Vision",
+    "definition": "A detailed, present-tense picture of your business and your life three years out, written as if it has already happened, using pictures, language, and storytelling.",
+    "principle": "People and teams move toward a picture they can see. Vague goals pull no one forward. A vivid, specific future does.",
+    "whenUsed": "When a founder is scaling, hiring, raising money, or feeling scattered, and needs the whole team rowing toward the same future.",
+    "order": 1
+  },
+  {
+    "slug": "vision-driven-method",
+    "name": "The Vision Driven Method",
+    "shortName": "Vision Driven Method",
+    "definition": "A single approach that fuses personal clarity and strategic business planning into one process, instead of treating them as two separate exercises.",
+    "principle": "Business plans and life plans built apart from each other pull the founder in two directions. Built together, they compound.",
+    "whenUsed": "When a founder keeps hitting revenue targets but not the lifestyle the business was supposed to fund.",
+    "order": 2
+  },
+  {
+    "slug": "vivid-vision-method",
+    "name": "The Vivid Vision Method",
+    "shortName": "Vivid Vision Method",
+    "definition": "The facilitated process Vision Driven runs clients through to extract, write, and design their three-year vision: Vivid Vision Clarity, the Vivid Vision Expander Day, Powerfully Articulate Your Vision, Vision Alive Imagery, and the Vivid Vision Rollout.",
+    "principle": "A vision only works if it is captured, written well, made visual, and rolled out to the team. Each stage exists so the vision does not die in a notebook.",
+    "whenUsed": "Start to finish of a Vivid Vision engagement.",
+    "order": 3
+  },
+  {
+    "slug": "golden-jail-cell",
+    "name": "The Golden Jail Cell vs. The Golden Compass",
+    "shortName": "Golden Jail Cell",
+    "definition": "The Golden Jail Cell is a business that is too big to walk away from but too dependent on you to give you freedom. The Golden Compass is the opposite: you always know where you are headed because you are guided by your own vision and values.",
+    "principle": "Without a vision of your own, you end up playing someone else's game and trying to win it. With one, you play your own game.",
+    "whenUsed": "Naming the exact trap a stuck-but-successful founder is in, and the way out.",
+    "order": 4
+  },
+  {
+    "slug": "big-life-stages-of-entrepreneurship",
+    "name": "The Big Life Stages of Entrepreneurship",
+    "shortName": "Big Life Stages",
+    "definition": "The arc founders move through, from an achievement-driven stage of chasing the next milestone to a vision-driven stage of leading from a clear picture of the life and business you want.",
+    "principle": "Most founders never consciously graduate from achievement-driven to vision-driven, so they keep score with numbers that never feel like enough.",
+    "whenUsed": "Helping a founder see where they are now and what the next stage actually looks like.",
+    "order": 5
+  },
+  {
+    "slug": "vision-amplifier",
+    "name": "Vision Amplifier",
+    "shortName": "Vision Amplifier",
+    "definition": "A 15-minute daily guided breathwork practice for connecting to your vision and staying in a creative, expansive state.",
+    "principle": "A vision you look at once a year does not change your decisions. A daily practice keeps it live.",
+    "whenUsed": "Ongoing, after the Vivid Vision is built.",
+    "order": 6
+  }
+]

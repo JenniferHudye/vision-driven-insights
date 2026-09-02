@@ -1,0 +1,52 @@
+name: Daily Auto-Publish
+
+on:
+  schedule:
+    - cron: '0 11 * * *'  # 6 AM America/Chicago (11:00 UTC), 7 days a week. Adjust if Jennifer's timezone is confirmed different.
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci
+      - name: Run publish
+        run: node scripts/publish-batch.cjs
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/blog/posts.json data/blog/queue.json public/sitemap.xml public/llms.txt public/llms-full.txt
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-publish: $(date +%Y-%m-%d)"
+            git push
+          fi
+      - name: Send daily article email
+        if: success()
+        run: |
+          URLS=$(cat /tmp/published-urls.txt 2>/dev/null || echo "")
+          if [ -n "$URLS" ]; then
+            LINKS=$(echo "$URLS" | awk '{print "<li><a href=\"" $0 "\">" $0 "</a> - <a href=\"https://search.google.com/search-console/inspect?resource_id=https://insights.visiondrivenglobal.com/&id=" $0 "\">request indexing</a></li>"}' | tr '\n' ' ')
+            BODY="<p>Your articles are live today. For each one, click the request indexing link to ask Google to crawl it faster (takes 30 seconds total):</p><ul>${LINKS}</ul>"
+            curl -X POST https://api.resend.com/emails \
+              -H "Authorization: Bearer ${{ secrets.RESEND_API_KEY }}" \
+              -H "Content-Type: application/json" \
+              -d "{\"from\":\"onboarding@resend.dev\",\"to\":\"jennifer@visiondrivenglobal.com\",\"subject\":\"Your articles are live - request indexing\",\"html\":\"${BODY}\"}"
+          fi
+      - name: Send failure email
+        if: failure()
+        run: |
+          curl -X POST https://api.resend.com/emails \
+            -H "Authorization: Bearer ${{ secrets.RESEND_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d '{"from":"onboarding@resend.dev","to":"jennifer@visiondrivenglobal.com","subject":"Daily publish failed","html":"Check the GitHub Actions log."}'

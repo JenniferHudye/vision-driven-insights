@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "clarify-your-vivid-vision",
+    "title": "Clarify Your Vivid Vision",
+    "brandLabel": "CLARIFY",
+    "tagline": "Get a clear, three-year picture of the business and life you actually want.",
+    "description": "How to clarify, write, design, and roll out a Vivid Vision: a present-tense picture of your company and your life three years out, built so your whole team can see it and move toward it.",
+    "coreFocus": "Help entrepreneurs clarify, communicate, and design their Vivid Vision.",
+    "subtopics": ["Clarify", "Communicate", "Design", "Roll out and share", "Vivid Vision in action"],
+    "primaryKeyword": "vivid vision",
+    "order": 1
+  },
+  {
+    "slug": "turn-your-vision-into-a-plan",
+    "title": "Turn Your Vision Into a Plan",
+    "brandLabel": "CREATE",
+    "tagline": "Master your calendar so the vision actually gets built.",
+    "description": "Turning a vision into action: goal setting and focus, annual and quarterly and weekly rhythms, a personalized scoreboard, rituals, and the systems that keep the plan moving without you pushing it.",
+    "coreFocus": "Turn vision into action through planning, rhythms, and systems.",
+    "subtopics": ["Goal setting and focus", "Seasons and rhythms", "Personalized scoreboard", "Rituals", "Systems and processes"],
+    "primaryKeyword": "quarterly planning for entrepreneurs",
+    "order": 2
+  },
+  {
+    "slug": "become-the-vision-driven-entrepreneur",
+    "title": "Become the Vision-Driven Entrepreneur",
+    "brandLabel": "CONNECT",
+    "tagline": "Step into the identity of the founder who can hold the vision.",
+    "description": "The inner work of leading from a vision: identity upgrades, holding the vision when circumstances say otherwise, working through impostor syndrome, and daily practices like Vision Amplifier that keep you connected to where you are going.",
+    "coreFocus": "Step into the Vision-Driven Entrepreneur identity.",
+    "subtopics": ["Connection to source", "Hold the vision, not the circumstance", "Identity upgrades", "Impostor syndrome", "Vision Amplifier"],
+    "primaryKeyword": "founder impostor syndrome",
+    "order": 3
+  },
+  {
+    "slug": "business-and-life-integrated",
+    "title": "Business and Life, Integrated",
+    "brandLabel": "LIFESTYLE",
+    "tagline": "Stop trading your life for your business. Build them together.",
+    "description": "Integrating business, family, and leadership: marriage and family, rest and reflection, travel, and the practice of designing a business that funds the life you want instead of consuming it.",
+    "coreFocus": "Integration of business, personal life, and leadership.",
+    "subtopics": ["Marriage and family", "Integration of business and life", "Rest and reflection", "Travel", "Leading without burning out"],
+    "primaryKeyword": "work life integration for entrepreneurs",
+    "order": 4
+  }
+]
