@@ -16,3 +16,6 @@ scratchpad
 "Vision Driven logos.png"
 "Vision Driven logos (1).png"
 Core?Message?Canvas.pdf
+
+.vercel
+.env*

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { site, CONVERSION_URL, CONVERSION_LABEL } from "../lib/site";
 import { PILLARS } from "../lib/content";
+import Logo from "./Logo";
 
 const year = new Date().getFullYear();
 
@@ -9,9 +10,7 @@ export default function Footer() {
     <footer className="mt-24 border-t border-border bg-surface">
       <div className="container-tight grid gap-10 py-14 md:grid-cols-4">
         <div className="md:col-span-1">
-          <p className="font-heading text-sm font-semibold uppercase tracking-[0.2em] text-text">
-            Vision Driven Insights
-          </p>
+          <Logo />
           <p className="mt-3 max-w-xs text-sm text-muted">{site.tagline}</p>
           <a href={CONVERSION_URL} className="btn-cta mt-5 !px-4 !py-2 text-xs" target="_blank" rel="noopener">
             {CONVERSION_LABEL}
