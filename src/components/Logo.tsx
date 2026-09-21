@@ -14,9 +14,6 @@ export default function Logo({ className = "" }: { className?: string }) {
         height={149}
         className="h-9 w-auto shrink-0 sm:h-10"
       />
-      <span className="hidden font-heading text-[0.62rem] font-medium uppercase tracking-[0.34em] text-primary sm:block">
-        Insights
-      </span>
     </Link>
   );
 }
