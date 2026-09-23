@@ -62,7 +62,7 @@ Pillar 5 ("TBD" in the SOP) was intentionally dropped for now at Jennifer's dire
 
 ## Infrastructure (pending Jennifer)
 
-- **Domain:** DEFERRED. Placeholder `insights.visiondrivenglobal.com` (free subdomain of her owned domain). Update `config/site.json` when locked.
+- **Domain:** CONFIRMED and LIVE 2026-09-23. `insights.visiondrivenglobal.com`, a free subdomain of Jennifer's owned domain, DNS at GoDaddy (single `A insights 76.76.21.21` record), attached in Vercel, SSL issued. No nameserver change, her main site and email were untouched.
 - **Jurisdiction:** placeholder Texas (Austin base, from research, unconfirmed). Affects Privacy/Terms governing law.
 - **Timezone:** America/Chicago assumed. Cron publish hour 11:00 UTC (6 AM Central). Adjust in `.github/workflows/daily-publish.yml` if wrong.
 - **GitHub:** account not yet created (Jennifer has Git Bash locally only).
